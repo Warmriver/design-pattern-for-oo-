@@ -4,6 +4,7 @@ import tools.JsonHelper;
 
 /**
  * Created by wentian.wang on 25/03/2018
+ *  这是一个leaf类
  */
 public class Floppy extends Equipment {
     private String name;

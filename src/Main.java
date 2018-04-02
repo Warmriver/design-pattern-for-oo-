@@ -15,9 +15,12 @@ public class Main {
         Bus bus = new Bus("AL110",180f);
         bus.add(cabinet);
         bus.add(cabinet2);
+    
 
-
-        chasis.add(new Floppy("floppy 2nd"));
+        Floppy floppyLeaf = new Floppy("floppy 2nd");
+        // leaf不能有子类，基础构件，会报错
+        floppyLeaf.add(bus);
+        chasis.add(floppyLeaf);
 
         System.out.println(bus);
 
