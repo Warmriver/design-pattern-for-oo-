@@ -1,5 +1,5 @@
 target/
-out/
+/out
 !.mvn/wrapper/maven-wrapper.jar
 *.class
 ### STS ###
@@ -9,8 +9,7 @@ out/
 .project
 .settings
 .springBeans
-.vscode/
-.vscode
+/.vscode
 ### IntelliJ IDEA ###
 .idea
 *.iws
